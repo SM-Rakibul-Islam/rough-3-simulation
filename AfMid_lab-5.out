@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Repair Station                                              Run execution date : 4/13/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/13/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Inspect.WaitTimePerEntity                   .09094     (Insuf)    .00000     .27283          3    
+Inspect.VATimePerEntity                     6.0182     (Insuf)    .18051     9.3081          3    
+Repair.WaitTimePerEntity                    .84850     (Insuf)    .00000     3.8776          7    
+Repair.VATimePerEntity                      2.1881     (Insuf)    .56271     7.6781          7    
+Repair.TotalTimePerEntity                   3.0366     (Insuf)    .68206     7.6781          7    
+Inspect.TotalTimePerEntity                  6.1091     (Insuf)    .18051     9.5809          3    
+Entity 1.VATime                             5.5450     (Insuf)    1.9614     9.1287          2    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          2    
+Entity 1.WaitTime                           .05968     (Insuf)    .00000     .11935          2    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          2    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          2    
+Entity 1.TotalTime                          5.6047     (Insuf)    1.9614     9.2480          2    
+Repair.Queue.WaitingTime                    .79976     (Insuf)    .00000     3.8776          8    
+Inspect.Queue.WaitingTime                   2.3223     (Insuf)    .00000     9.0165          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                3.0393     (Insuf)    .00000     6.0000     6.0000    
+Inspector.NumberBusy                        .90987     (Insuf)    .00000     1.0000     1.0000    
+Inspector.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspector.Utilization                       .90987     (Insuf)    .00000     1.0000     1.0000    
+Repair Person.NumberBusy                    .77670     (Insuf)    .00000     1.0000     1.0000    
+Repair Person.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Repair Person.Utilization                   .77670     (Insuf)    .00000     1.0000     1.0000    
+Repair.Queue.NumberInQueue                  .39659     (Insuf)    .00000     1.0000     1.0000    
+Inspect.Queue.NumberInQueue                 .95618     (Insuf)    .00000     3.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Inspect Accum Wait Time                     .27283    
+Inspect Accum VA Time                       18.054    
+Inspect Number Out                          3.0000    
+Repair Number In                            9.0000    
+Repair Number Out                           7.0000    
+Repair Accum Wait Time                      5.9394    
+Inspect Number In                           7.0000    
+Repair Accum VA Time                        15.317    
+Entity 1.NumberIn                           8.0000    
+Entity 1.NumberOut                          2.0000    
+Inspector.NumberSeized                      4.0000    
+Inspector.ScheduledUtilization              .90987    
+Repair Person.NumberSeized                  8.0000    
+Repair Person.ScheduledUtilization          .77670    
+System.NumberOut                            2.0000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

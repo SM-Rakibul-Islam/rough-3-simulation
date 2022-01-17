@@ -1,0 +1,16 @@
+[RESOURCES]
+Inspector
+Repair Person
+[VARIABLES]
+Decide.NumberOut True
+Decide.NumberOut False
+Inspect.WaitTime
+Dispose.NumberOut
+Inspect.VATime
+Inspect.NumberOut
+Repair.NumberIn
+Arrival.NumberOut
+Repair.NumberOut
+Repair.WaitTime
+Inspect.NumberIn
+Repair.VATime
